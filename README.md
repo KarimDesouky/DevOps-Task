@@ -41,3 +41,5 @@ You can access the application on you local browser on `localhost:30010`, `127.0
  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+
+[[File:20190327 F-15C Eagle pattern formation Kadena AB-16.jpg|20190327_F-15C_Eagle_pattern_formation_Kadena_AB-16]]
