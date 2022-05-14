@@ -14,7 +14,7 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 |       Vagrant CLI CMD        |              Function              |                                   Use Case                                   |
 |:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------:|
-|  diff<br/>-vagrant up<br/>karim        |    **provision** dev env on vm     |            - installation of env for a first time </span>                    |
+|        `vagrant up`          |    **provision** dev env on vm     |            - installation of env for a first time </span>                    |
 |        `vagrant ssh`         |         **ssh** to the vm          |      <font color="yellow"> making some changes on the vm itself </font>      |
 |       `vagrant reload`       |          **reloading** vm          |     <font color="yellow"> in case of changing vagrant box config </font>     |
 |     `vagrant provision`      |       **re-provisioning** vm       |    <font color="yellow"> in case of changing provisioning config </font>     |
@@ -39,10 +39,10 @@ For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) docume
 You can access the application on you local browser on `localhost:30010`, `127.0.0.1:30010` or `0.0.0.0:30010`
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+- red
++ green
+! orange
+# grey
+@@ purple (and bold)@@
 ```
 
