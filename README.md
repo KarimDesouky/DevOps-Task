@@ -1,4 +1,4 @@
-## Intro :octocat:
+## :octocat: Intro
 
 Hello World! flask application | DevOps Study Case
 
@@ -14,14 +14,14 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 |       Vagrant CLI CMD        |              Function              |                                   Use Case                                   |
 |:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------:|
-|         `vagrant up`         |    **provision** dev env on vm     |      :red_square: <font color="green"> installation of env for a first time </font>       |
-|        `vagrant ssh`         |         **ssh** to the vm          |      <font color="yellow"> making some changes on the vm itself </font>      |
+|         `vagrant up`         |    **provision** dev env on vm     |      🟢 <font color="green"> installation of env for a first time </font>       |
+|        `vagrant ssh`         |         **ssh** to the vm          |      🟡 <font color="yellow"> making some changes on the vm itself </font>      |
 |       `vagrant reload`       |          **reloading** vm          |     <font color="yellow"> in case of changing vagrant box config </font>     |
 |     `vagrant provision`      |       **re-provisioning** vm       |    <font color="yellow"> in case of changing provisioning config </font>     |
 | `vagrant reload --provision` | **reload** and **re-provision** vm | <font color="yellow"> in case of changing vm config and provisioning </font> |
 |        `vagrant halt`        |          **halt** the vm           |      <font color="yellow"> in case of stopping the vm temporary </font>      |
 |       `vagrant resume`       |         **resume** the vm          |          <font color="yellow"> for resuming the stopped vm </font>           |
-|      `vagrant destroy`       |       **destroying** the vm        |            <font color="red"> deleting the vagrant box vm </font>            |
+|      `vagrant destroy`       |       **destroying** the vm        |            🔴 <font color="red"> deleting the vagrant box vm </font>            |
 
 For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) documentation.
 
