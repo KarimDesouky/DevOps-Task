@@ -4,7 +4,7 @@
 
 Hello World! flask application | DevOps Study Case
 
-```
+```diff
 - git clone https://github.com/<project-url>>
 ```
 
