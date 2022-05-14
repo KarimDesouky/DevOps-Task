@@ -38,10 +38,10 @@ For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) docume
 
 You can access the application on you local browser on `localhost:30010`, `127.0.0.1:30010` or `0.0.0.0:30010`
 
-```diff
+diff
 - text in red
 + text in green
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
-```
+
