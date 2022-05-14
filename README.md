@@ -25,7 +25,7 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) documentation.
 
-## How `vagrant up` work under-hood ?!
+## How `vagrant up` work under-hood :question::exclamation:
 
 1. Provision Vagrant Box on VirtualBox based on ubuntu/bionic64.
 2. Customize the amount of memory on the VM: memory = 2048, cpus = 2 .
@@ -34,7 +34,7 @@ For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) docume
 5. Run `docker build` to build docker image under name tag **devops-task:latest**.
 6. Finally, run ansible playbook to provision minikube cluster with the needed kubernetes infrastructure inside `la3eb` namespace.
 
-## Finally !!
+## Finally  !!
 
 You can access the application on you local browser on `localhost:30010`, `127.0.0.1:30010` or `0.0.0.0:30010`
 
