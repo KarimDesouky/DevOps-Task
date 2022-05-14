@@ -1,4 +1,4 @@
-## Intro
+## Intro :octocat:
 
 Hello World! flask application | DevOps Study Case
 
