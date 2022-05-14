@@ -14,8 +14,7 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 |       Vagrant CLI CMD        |              Function              |                                   Use Case                                   |
 |:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------:|
-|         ```diff 
-- vagrant up ```        |    **provision** dev env on vm     |            - installation of env for a first time </span>                    |
+|  ```diff <br/> - vagrant up <br/> ```        |    **provision** dev env on vm     |            - installation of env for a first time </span>                    |
 |        `vagrant ssh`         |         **ssh** to the vm          |      <font color="yellow"> making some changes on the vm itself </font>      |
 |       `vagrant reload`       |          **reloading** vm          |     <font color="yellow"> in case of changing vagrant box config </font>     |
 |     `vagrant provision`      |       **re-provisioning** vm       |    <font color="yellow"> in case of changing provisioning config </font>     |
