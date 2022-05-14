@@ -5,7 +5,7 @@
 Hello World! flask application | DevOps Study Case
 
 ```
-git clone https://github.com/<project-url>>
+- git clone https://github.com/<project-url>>
 ```
 
 ## Installation dependencies
