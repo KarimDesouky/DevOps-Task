@@ -12,16 +12,16 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 ## Running the server in development
 
-|       Vagrant CLI CMD        |              Function              |                                           Use Case                                           |
-|:----------------------------:|:----------------------------------:|:--------------------------------------------------------------------------------------------:|
-|         `vagrant up`         |    **provision** dev env on vm     |       :green_circle: <font color="green"> installation of env for a first time </font>       |
-|        `vagrant ssh`         |         **ssh** to the vm          |     :yellow_circle:  <font color="yellow"> making some changes on the vm itself </font>      |
-|       `vagrant reload`       |          **reloading** vm          |    :yellow_circle:  <font color="yellow"> in case of changing vagrant box config </font>     |
-|     `vagrant provision`      |       **re-provisioning** vm       |    :yellow_circle: <font color="yellow"> in case of changing provisioning config </font>     |
-| `vagrant reload --provision` | **reload** and **re-provision** vm | :yellow_circle: <font color="yellow"> in case of changing vm config and provisioning </font> |
-|        `vagrant halt`        |          **halt** the vm           |      :yellow_circle: <font color="yellow"> in case of stopping the vm temporary </font>      |
-|       `vagrant resume`       |         **resume** the vm          |          :yellow_circle: <font color="yellow"> for resuming the stopped vm </font>           |
-|      `vagrant destroy`       |       **destroying** the vm        |             :red_circle: <font color="red"> deleting the vagrant box vm </font>              |
+|       Vagrant CLI CMD        |              Function              |                                         Use Case                                         |
+|:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------------------:|
+|         `vagrant up`         |    **provision** dev env on vm     |                   :green_circle: installation of env for a first time                    |
+|        `vagrant ssh`         |         **ssh** to the vm          |                   :yellow_circle: making some changes on the vm itself                   |
+|       `vagrant reload`       |          **reloading** vm          |                  :yellow_circle: in case of changing vagrant box config                  |
+|     `vagrant provision`      |       **re-provisioning** vm       |                 :yellow_circle: in case of changing provisioning config                  |
+| `vagrant reload --provision` | **reload** and **re-provision** vm |              :yellow_circle: in case of changing vm config and provisioning              |
+|        `vagrant halt`        |          **halt** the vm           |                   :yellow_circle: in case of stopping the vm temporary                   |
+|       `vagrant resume`       |         **resume** the vm          |                       :yellow_circle: for resuming the stopped vm                        |
+|      `vagrant destroy`       |       **destroying** the vm        |                         :red_circle: deleting the vagrant box vm                         |
 
 For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) documentation.
 
