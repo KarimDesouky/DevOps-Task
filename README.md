@@ -38,7 +38,7 @@ For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) docume
 
 You can access the application on you local browser on `localhost:30010`, `127.0.0.1:30010` or `0.0.0.0:30010`
 
- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
