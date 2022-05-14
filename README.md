@@ -14,7 +14,7 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 |       Vagrant CLI CMD        |              Function              |                                   Use Case                                   |
 |:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------:|
-|         `vagrant up`         |    **provision** dev env on vm     |      [#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <font color="green"> installation of env for a first time </font>       |
+|         `vagrant up`         |    **provision** dev env on vm     |      <font color="green"> installation of env for a first time </font>       |
 |        `vagrant ssh`         |         **ssh** to the vm          |      <font color="yellow"> making some changes on the vm itself </font>      |
 |       `vagrant reload`       |          **reloading** vm          |     <font color="yellow"> in case of changing vagrant box config </font>     |
 |     `vagrant provision`      |       **re-provisioning** vm       |    <font color="yellow"> in case of changing provisioning config </font>     |
@@ -38,6 +38,6 @@ For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) docume
 
 You can access the application on you local browser on `localhost:30010`, `127.0.0.1:30010` or `0.0.0.0:30010`
 
- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
