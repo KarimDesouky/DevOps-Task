@@ -1,6 +1,7 @@
-## :octocat: 🥷 Intro
+## :octocat: Intro
 
 Hello World! flask application | DevOps Study Case
+
 ```
 git clone https://github.com/<project-url>>
 ```
@@ -11,20 +12,20 @@ Needs to install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox]
 
 ## Running the server in development
 
-|       Vagrant CLI CMD        |              Function              |                                         Use Case                                         |
-|:----------------------------:|:----------------------------------:|:----------------------------------------------------------------------------------------:|
-|         `vagrant up`         |    **provision** dev env on vm     |                   🟢 installation of env for a first time                    |
-|        `vagrant ssh`         |         **ssh** to the vm          |                   🟡 making some changes on the vm itself                   |
-|       `vagrant reload`       |          **reloading** vm          |                  :yellow_circle: in case of changing vagrant box config                  |
-|     `vagrant provision`      |       **re-provisioning** vm       |                 :yellow_circle: in case of changing provisioning config                  |
-| `vagrant reload --provision` | **reload** and **re-provision** vm |              :yellow_circle: in case of changing vm config and provisioning              |
-|        `vagrant halt`        |          **halt** the vm           |                   :yellow_circle: in case of stopping the vm temporary                   |
-|       `vagrant resume`       |         **resume** the vm          |                       :yellow_circle: for resuming the stopped vm                        |
-|      `vagrant destroy`       |       **destroying** the vm        |                         🔴 deleting the vagrant box vm                         |
+|       Vagrant CLI CMD        |              Function              |                     Use Case                      |
+|:----------------------------:|:----------------------------------:|:-------------------------------------------------:|
+|         `vagrant up`         |    **provision** dev env on vm     |      🟢 installation of env for a first time      |
+|        `vagrant ssh`         |         **ssh** to the vm          |      🟡 making some changes on the vm itself      |
+|       `vagrant reload`       |          **reloading** vm          |     🟡 in case of changing vagrant box config     |
+|     `vagrant provision`      |       **re-provisioning** vm       |    🟡 in case of changing provisioning config     |
+| `vagrant reload --provision` | **reload** and **re-provision** vm | 🟡 in case of changing vm config and provisioning |
+|        `vagrant halt`        |          **halt** the vm           |      🟡 in case of stopping the vm temporary      |
+|       `vagrant resume`       |         **resume** the vm          |          🟡 for resuming the stopped vm           |
+|      `vagrant destroy`       |       **destroying** the vm        |          🔴 deleting the vagrant box vm           |
 
 For more info, kindly visit [vagrant](https://www.vagrantup.com/docs/cli) documentation.
 
-## How `vagrant up` work under-hood ❓ ❗
+## How `vagrant up` work under-hood ❓❗
 
 1. Provision Vagrant Box on VirtualBox based on ubuntu/bionic64.
 2. Customize the amount of memory on the VM: memory = 2048, cpus = 2 .
